@@ -1,0 +1,63 @@
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ----------------------------< com.demo:ot >-----------------------------
+[INFO] Building online test 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO]
+[INFO] --- maven-dependency-plugin:2.4:tree (default-cli) @ ot ---
+[INFO] com.demo:ot:war:0.0.1-SNAPSHOT
+[INFO] +- junit:junit:jar:4.10:test
+[INFO] |  \- org.hamcrest:hamcrest-core:jar:1.1:test
+[INFO] +- org.mockito:mockito-all:jar:1.9.5:test
+[INFO] +- ch.qos.logback:logback-core:jar:1.0.1:compile
+[INFO] +- org.slf4j:log4j-over-slf4j:jar:1.7.5:runtime
+[INFO] +- org.slf4j:jcl-over-slf4j:jar:1.7.5:runtime
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.5:compile
+[INFO] +- javax.servlet:servlet-api:jar:2.5:compile
+[INFO] +- com.google.inject:guice:jar:4.2.0:compile
+[INFO] |  +- javax.inject:javax.inject:jar:1:compile
+[INFO] |  +- aopalliance:aopalliance:jar:1.0:compile
+[INFO] |  \- com.google.guava:guava:jar:23.6-android:compile
+[INFO] |     +- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[INFO] |     +- org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+[INFO] |     +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+[INFO] |     +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[INFO] |     \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+[INFO] +- com.google.inject.extensions:guice-servlet:jar:4.2.0:compile
+[INFO] +- com.sun.jersey:jersey-core:jar:1.9:compile
+[INFO] +- com.sun.jersey:jersey-server:jar:1.9:compile
+[INFO] |  \- asm:asm:jar:3.1:compile
+[INFO] +- com.sun.jersey.contribs:jersey-guice:jar:1.9:compile
+[INFO] +- com.fasterxml.jackson.core:jackson-core:jar:2.0.0:compile
+[INFO] +- com.fasterxml.jackson.core:jackson-databind:jar:2.0.0:compile
+[INFO] +- com.fasterxml.jackson.core:jackson-annotations:jar:2.0.0:compile
+[INFO] +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.0.0:compile
+[INFO] |  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.0.0:compile
+[INFO] |  \- javax.ws.rs:jsr311-api:jar:1.1.1:compile
+[INFO] +- com.h2database:h2:jar:1.3.172:compile
+[INFO] +- org.mybatis:mybatis-guice:jar:3.10:compile
+[INFO] +- org.mybatis:mybatis:jar:3.4.6:compile
+[INFO] \- org.apache.activemq:activemq-core:jar:5.7.0:compile
+[INFO]    +- org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1:compile
+[INFO]    +- org.apache.activemq:kahadb:jar:5.7.0:compile
+[INFO]    +- org.apache.activemq.protobuf:activemq-protobuf:jar:1.1:compile
+[INFO]    +- org.fusesource.mqtt-client:mqtt-client:jar:1.3:compile
+[INFO]    |  +- org.fusesource.hawtdispatch:hawtdispatch-transport:jar:1.11:compile
+[INFO]    |  |  \- org.fusesource.hawtdispatch:hawtdispatch:jar:1.11:compile
+[INFO]    |  \- org.fusesource.hawtbuf:hawtbuf:jar:1.9:compile
+[INFO]    +- org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:jar:1.0.1:compile
+[INFO]    +- org.springframework:spring-context:jar:3.0.7.RELEASE:compile
+[INFO]    |  +- org.springframework:spring-aop:jar:3.0.7.RELEASE:compile
+[INFO]    |  +- org.springframework:spring-beans:jar:3.0.7.RELEASE:compile
+[INFO]    |  +- org.springframework:spring-core:jar:3.0.7.RELEASE:compile
+[INFO]    |  |  \- commons-logging:commons-logging:jar:1.1.1:compile
+[INFO]    |  +- org.springframework:spring-expression:jar:3.0.7.RELEASE:compile
+[INFO]    |  \- org.springframework:spring-asm:jar:3.0.7.RELEASE:compile
+[INFO]    +- commons-net:commons-net:jar:3.1:compile
+[INFO]    \- org.jasypt:jasypt:jar:1.9.0:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.700 s
+[INFO] Finished at: 2018-08-07T09:26:23+08:00
+[INFO] ------------------------------------------------------------------------
