@@ -1,7 +1,7 @@
 
 0, Execute the war file.
-  a, either run "java -jar jetty-runner.jar ot-0.0.1-SNAPSHOT.war" under this directory \test\package\
-  b, or, if maven is availabe, run "mvn jetty:run" under this directory \test\code\ot\
+  a, either run "java -jar jetty-runner.jar ot-0.0.1-SNAPSHOT.war" (do "mvn package" to get the war file firstly).
+  b, or, run "mvn jetty:run" under this directory /ot/
 
 
 1, Get random question.
