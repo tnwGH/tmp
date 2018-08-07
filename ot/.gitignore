@@ -1,0 +1,6 @@
+/target/
+/.settings/
+/activemq-data/
+/${JDBC.schema}.h2.db
+/${JDBC.schema}.lock.db
+/${JDBC.schema}.trace.db
